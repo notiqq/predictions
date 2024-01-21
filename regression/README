@@ -1,0 +1,14 @@
+To setup application:
+
+conda create -n assignment python=3.10
+conda activate assignment
+
+pip install -r ./regression/requirements.txt
+
+To run train.py:
+cd regression
+python train.py
+
+To run predict.py:
+cd regression
+python predict.py -i ./data/test.csv -o pred.csv
